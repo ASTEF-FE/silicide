@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Моделирование силицидообразования</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<section class="main-wrapper">
+			<h3 class="info__text">Программа предназначена для моделирования процесса силицидообразования</h3>
+			<section class="info">
+				<div class="initial-data">
+					<p class="initial-data__title">Для начала моделирования введите исходные данные:</p>
+					<div class="initial-data__item">
+						<div class="initial-data__input">
+							<div class="initial-data__temp">
+								<form action="">
+									<input type="number" placeholder="Температура, &degС" class="itnitial-input inp-T">
+								</form>
+							</div>
+							<div class="initial-data__energy">
+								<form action="">
+									<input type="number" placeholder="Энергия, эВ" class="itnitial-input inp-E">
+								</form>
+							</div>
+							<div class="initial-data__constanta">
+								<form action="">
+									<input type="number" placeholder="Константа,см&sup2/c" class="itnitial-input inp-U">
+								</form>
+							</div>
+						</div>
+						<button class="initial-data__button">Ввести данные</button>
+					</div>
+
+				</div>
+
+			</section>
+			<section class="error-el">
+			</section>
+			<section class="table-el">
+
+			</section>
+			<section class="canvas-el">
+
+			</section>
+		</section>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script src="script/script.js"></script>
+</body>
+
+</html>
