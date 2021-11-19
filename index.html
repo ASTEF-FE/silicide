@@ -16,25 +16,57 @@
 				<div class="initial-data">
 					<p class="initial-data__title">Для начала моделирования введите исходные данные:</p>
 					<div class="initial-data__item">
+						<div class="initial-data__temp">
+							<form action="">
+								<input type="number" placeholder="T, &degС" class="itnitial-input inp-T">
+							</form>
+						</div>
 						<div class="initial-data__input">
-							<div class="initial-data__temp">
-								<form action="">
-									<input type="number" placeholder="Температура, &degС" class="itnitial-input inp-T">
-								</form>
+
+							<div class="position">
+								<span>NiSi<sub>2</sub></span>
+								<div class="initial-data__energy">
+									<form action="">
+										<input type="number" placeholder="Ea, эВ" class="itnitial-input E_NiSi2">
+									</form>
+								</div>
+								<div class="initial-data__constanta">
+									<form action="">
+										<input type="number" placeholder="U, см&sup2/c" class="itnitial-input U_NiSi2">
+									</form>
+								</div>
 							</div>
-							<div class="initial-data__energy">
-								<form action="">
-									<input type="number" placeholder="Энергия, эВ" class="itnitial-input inp-E">
-								</form>
+
+							<div class="position">
+								<span>NiSi</span>
+								<div class="initial-data__energy">
+									<form action="">
+										<input type="number" placeholder="Ea, эВ" class="itnitial-input E_NiSi">
+									</form>
+								</div>
+								<div class="initial-data__constanta constanta_NiSi">
+									<form action="">
+										<input type="number" placeholder="U, см&sup2/c" class="itnitial-input U_NiSi">
+									</form>
+								</div>
 							</div>
-							<div class="initial-data__constanta">
-								<form action="">
-									<input type="number" placeholder="Константа,см&sup2/c" class="itnitial-input inp-U">
-								</form>
+
+							<div class="position">
+								<span>Ni<sub>2</sub>Si</span>
+								<div class="initial-data__energy">
+									<form action="">
+										<input type="number" placeholder="Ea, эВ" class="itnitial-input E_Ni2Si">
+									</form>
+								</div>
+								<div class="initial-data__constanta">
+									<form action="">
+										<input type="number" placeholder="U, см&sup2/c" class="itnitial-input U_Ni2Si">
+									</form>
+								</div>
 							</div>
 						</div>
-						<button class="initial-data__button">Ввести данные</button>
 					</div>
+					<button class="initial-data__button">Ввести данные</button>
 
 				</div>
 
